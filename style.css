@@ -1,0 +1,70 @@
+.bg{
+
+background-image: url(./image/Corporate-Landing-Page.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 90vh;
+
+
+}
+html{
+    font-size: 100%;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    width:100%;
+    height:auto;
+}
+.bg1{
+
+    background-image: url(./image/Corporate-Landing-Page12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;  
+}
+.bg3{
+    background-image: url(./image/Corporate-Landing-Page11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh; 
+}
+.bg4{
+
+    background-image: url(./image/Corporate-Landing-Page12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;  
+}
+.bg5{
+    background: #323969;
+}
+@media only screen and (max-width: 415px) {
+    .image img {
+        margin-left:40%
+    }
+    html{
+        font-size: 70%;
+    }
+    .bg1{
+        height: 80vh; 
+    }
+    .bg4{
+        height: 50vh;  
+    }
+
+  }
+  @media only screen and (max-width: 376px){
+    .bg1{
+        height: 100vh; 
+    }
+  }
